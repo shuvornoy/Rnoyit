@@ -124,8 +124,8 @@
               </div>
             </div>
           </div>
-
         </div>
+
         <div class="col-lg-6">
           <div class="card mb-3 w-100" >
             <div class="row g-0">
@@ -142,9 +142,10 @@
               </div>
             </div>
           </div>
-
         </div>
+
        </div>
+
        <div class="row">
         <div class="col-lg-6">
           <div class="card mb-3 w-100">
@@ -270,46 +271,49 @@
                     </div>
                     <div class="col-lg-6">
                          <div class="w-100 d-flex justify-content-lg-end  justify-content-md-center justify-content-sm-center">
-                            <button class="btn bg-light text-info fw-bold mt-5  py-3 px-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Register Now</button>
 
-                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <button class="btn bg-light text-info fw-bold mt-5  py-3 px-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Register Now</button>
+
+                            <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
                               <div class="offcanvas-header">
-                                <h5 id="offcanvasRightLabel">registering</h5>
-                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Submit your details</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                               </div>
                               <div class="offcanvas-body">
                                 <form class="row g-3">
                                   <div class="col-md-6">
-                                    <label for="inputEmail4" class="form-label">Email</label>
-                                    <input type="email" class="form-control" id="inputEmail4">
+                                    <label for="inputtext" class="form-label">Frist Name</label>
+                                    <input type="text" class="form-control" placeholder="Frist name" id="inputEmail4">
                                   </div>
                                   <div class="col-md-6">
-                                    <label for="inputPassword4" class="form-label">Password</label>
-                                    <input type="password" class="form-control" id="inputPassword4">
+                                    <label for="inputtext" class="form-label">Last Name</label>
+                                    <input type="text" placeholder="Last name" class="form-control" id="inputPassword4">
+                                  </div>
+                                  <div class="col-md-6">
+                                    <label for="inputEmail4" class="form-label">Your Email</label>
+                                    <input type="email" class="form-control" placeholder="your email" id="inputEmail4">
+                                  </div>
+                                  <div class="col-md-6">
+                                    <label for="inputPassword4" class="form-label">Your Password</label>
+                                    <input type="password" class="form-control" id="inputEmail4" placeholder="your password">
                                   </div>
                                   <div class="col-12">
-                                    <label for="inputAddress" class="form-label">Address</label>
-                                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                    <label for="inputCounty" class="form-label">County</label>
+                                    <input type="text" class="form-control" id="inputAddress" placeholder="Bangladesh">
                                   </div>
-                                  <div class="col-12">
-                                    <label for="inputAddress2" class="form-label">Address 2</label>
-                                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                                  </div>
+                                  
                                   <div class="col-md-6">
                                     <label for="inputCity" class="form-label">City</label>
-                                    <input type="text" class="form-control" id="inputCity">
+                                    <input type="text" class="form-control" placeholder="Dinajpur" id="inputCity">
                                   </div>
-                                  <div class="col-md-4">
+                                  <div class="col-md-6">
                                     <label for="inputState" class="form-label">State</label>
                                     <select id="inputState" class="form-select">
                                       <option selected>Choose...</option>
-                                      <option>...</option>
+                                      <option>Mail</option>
+                                      <option>Femail</option>
                                     </select>
-                                  </div>
-                                  <div class="col-md-2">
-                                    <label for="inputZip" class="form-label">Zip</label>
-                                    <input type="text" class="form-control" id="inputZip">
-                                  </div>
+                                  </div>                              
                                   <div class="col-12">
                                     <div class="form-check">
                                       <input class="form-check-input" type="checkbox" id="gridCheck">
